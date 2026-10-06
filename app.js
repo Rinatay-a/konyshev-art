@@ -15,7 +15,7 @@
 
   try {
     var savedLanguage = localStorage.getItem("konyshev-language");
-    if (["ru", "zh", "ar"].indexOf(savedLanguage) !== -1) currentLang = savedLanguage;
+    if (["ru", "en", "zh", "ar"].indexOf(savedLanguage) !== -1) currentLang = savedLanguage;
   } catch (error) {
     currentLang = "ru";
   }

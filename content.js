@@ -96,6 +96,52 @@ window.SITE_CONTENT = {
       pageTitle: "尤拉·科内舍夫 — 艺术家",
       metaDescription: "尤拉·科内舍夫是来自切尔塔诺沃的艺术家。作品与展览。"
     },
+    en: {
+      skip: "Skip to content",
+      menu: "Menu",
+      navLabel: "Main navigation",
+      languageLabel: "Choose language",
+      filterLabel: "Filter artworks",
+      close: "Close",
+      navAbout: "About",
+      navWorks: "Works",
+      navExhibitions: "Exhibitions",
+      heroEyebrow: "Artist · Moscow",
+      heroNameFirst: "Yura",
+      heroNameLast: "Konyshev",
+      heroIntro: "Painting about people, the city, and the strange connections between them.",
+      viewWorks: "View works",
+      portraitCaption: "Portrait of the artist",
+      aboutTitle: "An engineer by training,<br><em>an artist by calling.</em>",
+      aboutText: "Yura Konyshev lives and works in Moscow. A graduate of the Moscow Aviation Institute, he is an artist from Chertanovo — a district that becomes both subject and setting in his paintings.",
+      baseLabel: "Based in",
+      baseValue: "Moscow",
+      practiceLabel: "Practice",
+      practiceValue: "Painting",
+      educationLabel: "Education",
+      educationValue: "Moscow Aviation Institute",
+      selectedWorks: "Selected works",
+      worksTitle: "Painting",
+      worksCount: "works",
+      filterAll: "All",
+      filterPrivate: "Private collections",
+      exhibitionsTitle: "Exhibition<br><em>chronicle</em>",
+      soloExhibition: "Solo exhibition",
+      mgdTitle: "Moscow City Duma",
+      mgdPlace: "Moscow · 2025",
+      openExhibition: "Open the Moscow City Duma exhibition page",
+      futureEyebrow: "The website grows with the practice",
+      futureTitle: "Next<br><em>chapters</em>",
+      futureNews: "News and upcoming exhibitions",
+      futurePress: "Publications and press",
+      futureCatalog: "Downloadable catalogue of works",
+      footerLine: "Yura Konyshev · Moscow",
+      backTop: "Back to top",
+      privateLabel: "Private collection",
+      openWork: "Open artwork",
+      pageTitle: "Yura Konyshev — Artist",
+      metaDescription: "Yura Konyshev is an artist from Chertanovo. Works and exhibitions."
+    },
     ar: {
       skip: "الانتقال إلى المحتوى",
       menu: "القائمة",
@@ -151,6 +197,7 @@ window.SITE_CONTENT = {
       status: "private",
       ru: { title: "Рома Логвин", meta: "Холст, масло · в частной коллекции" },
       zh: { title: "罗马·洛格温", meta: "布面油画 · 私人收藏" },
+      en: { title: "Roma Logvin", meta: "Oil on canvas · private collection" },
       ar: { title: "روما لوغفين", meta: "زيت على قماش · مجموعة خاصة" }
     },
     {
@@ -159,6 +206,7 @@ window.SITE_CONTENT = {
       status: "catalog",
       ru: { title: "Административное здание в Чертаново. «РИК»", meta: "Холст, масло" },
       zh: { title: "切尔塔诺沃行政大楼“РИК”", meta: "布面油画" },
+      en: { title: "Administrative Building in Chertanovo. ‘RIK’", meta: "Oil on canvas" },
       ar: { title: "المبنى الإداري في تشيرتانوفو «ريك»", meta: "زيت على قماش" }
     },
     {
@@ -167,6 +215,7 @@ window.SITE_CONTENT = {
       status: "private",
       ru: { title: "Старое Чертаново", meta: "Холст, масло · 60 × 80 см · в частной коллекции" },
       zh: { title: "老切尔塔诺沃", meta: "布面油画 · 60 × 80 厘米 · 私人收藏" },
+      en: { title: "Old Chertanovo", meta: "Oil on canvas · 60 × 80 cm · private collection" },
       ar: { title: "تشيرتانوفو القديمة", meta: "زيت على قماش · 60 × 80 سم · مجموعة خاصة" }
     },
     {
@@ -175,6 +224,7 @@ window.SITE_CONTENT = {
       status: "private",
       ru: { title: "Лебеди", meta: "Холст, масло · 100 × 100 см · в частной коллекции" },
       zh: { title: "天鹅", meta: "布面油画 · 100 × 100 厘米 · 私人收藏" },
+      en: { title: "Swans", meta: "Oil on canvas · 100 × 100 cm · private collection" },
       ar: { title: "البجع", meta: "زيت على قماش · 100 × 100 سم · مجموعة خاصة" }
     },
     {
@@ -183,6 +233,7 @@ window.SITE_CONTENT = {
       status: "private",
       ru: { title: "Московские коммунальные машины", meta: "Холст, масло · в частной коллекции" },
       zh: { title: "莫斯科市政车辆", meta: "布面油画 · 私人收藏" },
+      en: { title: "Moscow Municipal Vehicles", meta: "Oil on canvas · private collection" },
       ar: { title: "مركبات الخدمات البلدية في موسكو", meta: "زيت على قماش · مجموعة خاصة" }
     },
     {
@@ -191,6 +242,7 @@ window.SITE_CONTENT = {
       status: "catalog",
       ru: { title: "Гагра", meta: "Холст, масло" },
       zh: { title: "加格拉", meta: "布面油画" },
+      en: { title: "Gagra", meta: "Oil on canvas" },
       ar: { title: "غاغرا", meta: "زيت على قماش" }
     },
     {
@@ -199,6 +251,7 @@ window.SITE_CONTENT = {
       status: "private",
       ru: { title: "Творец и детище", meta: "Холст, масло · в частной коллекции" },
       zh: { title: "创作者与造物", meta: "布面油画 · 私人收藏" },
+      en: { title: "The Creator and His Creation", meta: "Oil on canvas · private collection" },
       ar: { title: "المبدع وصنيعته", meta: "زيت على قماش · مجموعة خاصة" }
     },
     {
@@ -207,6 +260,7 @@ window.SITE_CONTENT = {
       status: "catalog",
       ru: { title: "Лебеди II", meta: "Холст, масло" },
       zh: { title: "天鹅 II", meta: "布面油画" },
+      en: { title: "Swans II", meta: "Oil on canvas" },
       ar: { title: "البجع II", meta: "زيت على قماش" }
     },
     {
@@ -215,6 +269,7 @@ window.SITE_CONTENT = {
       status: "catalog",
       ru: { title: "Рыбный порт, балалайка и скрипка", meta: "Картон, масло" },
       zh: { title: "渔港、巴拉莱卡琴与小提琴", meta: "纸板油画" },
+      en: { title: "Fishing Port, Balalaika and Violin", meta: "Oil on cardboard" },
       ar: { title: "ميناء الصيد والبالالايكا والكمان", meta: "زيت على كرتون" }
     },
     {
@@ -223,6 +278,7 @@ window.SITE_CONTENT = {
       status: "catalog",
       ru: { title: "Паша танкист", meta: "Холст на картоне, масло" },
       zh: { title: "坦克兵帕沙", meta: "纸板裱布油画" },
+      en: { title: "Pasha the Tankman", meta: "Oil on canvas mounted on board" },
       ar: { title: "باشا، جندي الدبابات", meta: "زيت على قماش مثبت على كرتون" }
     },
     {
@@ -231,6 +287,7 @@ window.SITE_CONTENT = {
       status: "catalog",
       ru: { title: "Филёр", meta: "Холст на картоне, масло" },
       zh: { title: "密探", meta: "纸板裱布油画" },
+      en: { title: "The Surveillance Agent", meta: "Oil on canvas mounted on board" },
       ar: { title: "المراقب السري", meta: "زيت على قماش مثبت على كرتون" }
     },
     {
@@ -239,6 +296,7 @@ window.SITE_CONTENT = {
       status: "catalog",
       ru: { title: "Портал", meta: "Холст, масло · 80 × 80 см" },
       zh: { title: "入口", meta: "布面油画 · 80 × 80 厘米" },
+      en: { title: "Portal", meta: "Oil on canvas · 80 × 80 cm" },
       ar: { title: "البوابة", meta: "زيت على قماش · 80 × 80 سم" }
     },
     {
@@ -247,6 +305,7 @@ window.SITE_CONTENT = {
       status: "private",
       ru: { title: "Мирослава", meta: "Холст, масло · 50 × 65 см · в частной коллекции" },
       zh: { title: "米罗丝拉娃", meta: "布面油画 · 50 × 65 厘米 · 私人收藏" },
+      en: { title: "Miroslava", meta: "Oil on canvas · 50 × 65 cm · private collection" },
       ar: { title: "ميروسلافا", meta: "زيت على قماش · 50 × 65 سم · مجموعة خاصة" }
     },
     {
@@ -255,6 +314,7 @@ window.SITE_CONTENT = {
       status: "catalog",
       ru: { title: "Ночная охота", meta: "Холст, масло" },
       zh: { title: "夜猎", meta: "布面油画" },
+      en: { title: "Night Hunt", meta: "Oil on canvas" },
       ar: { title: "الصيد الليلي", meta: "زيت على قماش" }
     },
     {
@@ -263,6 +323,7 @@ window.SITE_CONTENT = {
       status: "private",
       ru: { title: "Женщина", meta: "Холст, масло · в частной коллекции" },
       zh: { title: "女人", meta: "布面油画 · 私人收藏" },
+      en: { title: "Woman", meta: "Oil on canvas · private collection" },
       ar: { title: "امرأة", meta: "زيت على قماش · مجموعة خاصة" }
     },
     {
@@ -271,6 +332,7 @@ window.SITE_CONTENT = {
       status: "catalog",
       ru: { title: "Не сёстры", meta: "Холст, масло · 71 × 120 см" },
       zh: { title: "并非姐妹", meta: "布面油画 · 71 × 120 厘米" },
+      en: { title: "Not Sisters", meta: "Oil on canvas · 71 × 120 cm" },
       ar: { title: "لسن أخوات", meta: "زيت على قماش · 71 × 120 سم" }
     }
   ]

@@ -23,6 +23,17 @@
       pageTitle: "莫斯科市杜马 — 尤拉·科内舍夫",
       metaDescription: "尤拉·科内舍夫于2025年在莫斯科市杜马举办的个展。"
     },
+    en: {
+      skip: "Skip to content", menu: "Menu", navLabel: "Main navigation", languageLabel: "Choose language",
+      navAbout: "About", navWorks: "Works", navExhibitions: "Exhibitions", back: "All exhibitions",
+      solo: "Solo exhibition · 2025", title: "Moscow<br><em>City Duma</em>", place: "Moscow<br>2025",
+      format: "Video documentation<br>00:28", videoLabel: "Video of the Moscow City Duma exhibition",
+      caption: "Works at the exhibition", aboutLabel: "About the exhibition",
+      about: "Video documentation of Yura Konyshev’s solo exhibition at the Moscow City Duma. This section can later be expanded with installation photographs, a list of works, and a curatorial text.",
+      footer: "Yura Konyshev · Moscow", backTop: "Back to top",
+      pageTitle: "Moscow City Duma — Yura Konyshev",
+      metaDescription: "Yura Konyshev’s solo exhibition at the Moscow City Duma, 2025."
+    },
     ar: {
       skip: "الانتقال إلى المحتوى", menu: "القائمة", navLabel: "التنقل الرئيسي", languageLabel: "اختيار اللغة",
       navAbout: "عن الفنان", navWorks: "الأعمال", navExhibitions: "المعارض", back: "كل المعارض",
@@ -38,7 +49,7 @@
   var currentLang = "ru";
   try {
     var stored = localStorage.getItem("konyshev-language");
-    if (["ru", "zh", "ar"].indexOf(stored) !== -1) currentLang = stored;
+    if (["ru", "en", "zh", "ar"].indexOf(stored) !== -1) currentLang = stored;
   } catch (error) { currentLang = "ru"; }
 
   function applyLanguage(lang) {

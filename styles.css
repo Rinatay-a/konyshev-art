@@ -290,10 +290,12 @@ html[dir="rtl"] .detail-back-arrow { display: inline-block; transform: scaleX(-1
 }
 
 @media (max-width: 680px) {
-  .site-header { min-height: 66px; }
+  .site-header { min-height: 66px; grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px; }
+  .site-header .wordmark { font-size: 15px; }
   .site-nav { inset: 66px 0 auto; }
   .language-switch span { display: none; }
-  .language-switch { gap: 0; }
+  .language-switch { gap: 0; font-size: 11px; }
+  .language-switch button { padding-inline: 2px; }
   .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 52px; }
   .hero::before { width: 190px; inset-inline-start: auto; inset-inline-end: -45px; top: 30px; }
   .hero-copy { z-index: 1; }
