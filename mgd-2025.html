@@ -9,7 +9,7 @@
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Noto+Serif+SC:wght@400;600&family=Prata&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;600&family=Noto+Sans+Arabic:wght@400;500;600&family=Noto+Serif+SC:wght@400;600&family=Prata&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -25,14 +25,16 @@
         <a href="index.html#exhibitions" data-detail="navExhibitions">Выставки</a>
       </nav>
       <div class="language-switch" aria-label="Выбор языка" data-detail-aria="languageLabel">
-        <button type="button" data-lang="ru" class="is-active" aria-pressed="true">RU</button>
+        <button type="button" data-lang="ru" lang="ru" class="is-active" aria-pressed="true">RU</button>
         <span>/</span>
-        <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+        <button type="button" data-lang="zh" lang="zh-CN" aria-pressed="false">中文</button>
+        <span>/</span>
+        <button type="button" data-lang="ar" lang="ar" dir="rtl" aria-pressed="false">العربية</button>
       </div>
     </header>
 
     <main id="main" class="exhibition-detail">
-      <a class="detail-back" href="index.html#exhibitions"><span aria-hidden="true">←</span><span data-detail="back">Все выставки</span></a>
+      <a class="detail-back" href="index.html#exhibitions"><span class="detail-back-arrow" aria-hidden="true">←</span><span data-detail="back">Все выставки</span></a>
       <div class="detail-hero">
         <div class="detail-copy reveal">
           <p class="eyebrow" data-detail="solo">Персональная выставка · 2025</p>

@@ -46,7 +46,9 @@ window.SITE_CONTENT = {
       footerLine: "Юра Конышев · Москва",
       backTop: "Наверх",
       privateLabel: "Частная коллекция",
-      openWork: "Открыть работу"
+      openWork: "Открыть работу",
+      pageTitle: "Юра Конышев — художник",
+      metaDescription: "Юра Конышев — художник из Чертанова. Работы и выставки."
     },
     zh: {
       skip: "跳到正文",
@@ -90,7 +92,55 @@ window.SITE_CONTENT = {
       footerLine: "尤拉·科内舍夫 · 莫斯科",
       backTop: "返回顶部",
       privateLabel: "私人收藏",
-      openWork: "打开作品"
+      openWork: "打开作品",
+      pageTitle: "尤拉·科内舍夫 — 艺术家",
+      metaDescription: "尤拉·科内舍夫是来自切尔塔诺沃的艺术家。作品与展览。"
+    },
+    ar: {
+      skip: "الانتقال إلى المحتوى",
+      menu: "القائمة",
+      navLabel: "التنقل الرئيسي",
+      languageLabel: "اختيار اللغة",
+      filterLabel: "تصفية الأعمال",
+      close: "إغلاق",
+      navAbout: "عن الفنان",
+      navWorks: "الأعمال",
+      navExhibitions: "المعارض",
+      heroEyebrow: "فنان · موسكو",
+      heroNameFirst: "يورا",
+      heroNameLast: "كونيشيف",
+      heroIntro: "لوحات عن الناس والمدينة والروابط الغريبة بينهما.",
+      viewWorks: "مشاهدة الأعمال",
+      portraitCaption: "صورة الفنان",
+      aboutTitle: "مهندس بالتعليم،<br><em>وفنان بالشغف.</em>",
+      aboutText: "يعيش يورا كونيشيف ويعمل في موسكو. تخرّج في معهد موسكو للطيران، وهو فنان من تشيرتانوفو — الحي الذي يتحول إلى بطل ومشهد في لوحاته.",
+      baseLabel: "المدينة",
+      baseValue: "موسكو",
+      practiceLabel: "الممارسة",
+      practiceValue: "الرسم",
+      educationLabel: "التعليم",
+      educationValue: "معهد موسكو للطيران",
+      selectedWorks: "أعمال مختارة",
+      worksTitle: "لوحات",
+      worksCount: "عملاً",
+      filterAll: "الكل",
+      filterPrivate: "ضمن مجموعات خاصة",
+      exhibitionsTitle: "سجل<br><em>المعارض</em>",
+      soloExhibition: "معرض فردي",
+      mgdTitle: "مجلس دوما مدينة موسكو",
+      mgdPlace: "موسكو · 2025",
+      openExhibition: "فتح صفحة المعرض في مجلس دوما مدينة موسكو",
+      futureEyebrow: "ينمو الموقع مع الممارسة الفنية",
+      futureTitle: "الفصول<br><em>القادمة</em>",
+      futureNews: "الأخبار والمعارض الجديدة",
+      futurePress: "المنشورات والتغطية الصحفية",
+      futureCatalog: "كتالوج الأعمال القابل للتنزيل",
+      footerLine: "يورا كونيشيف · موسكو",
+      backTop: "إلى الأعلى",
+      privateLabel: "مجموعة خاصة",
+      openWork: "فتح العمل",
+      pageTitle: "يورا كونيشيف — فنان",
+      metaDescription: "يورا كونيشيف فنان من تشيرتانوفو. الأعمال والمعارض."
     }
   },
 
@@ -100,112 +150,128 @@ window.SITE_CONTENT = {
       image: "assets/artworks/01-roma-logvin.webp",
       status: "private",
       ru: { title: "Рома Логвин", meta: "Холст, масло · в частной коллекции" },
-      zh: { title: "罗马·洛格温", meta: "布面油画 · 私人收藏" }
+      zh: { title: "罗马·洛格温", meta: "布面油画 · 私人收藏" },
+      ar: { title: "روما لوغفين", meta: "زيت على قماش · مجموعة خاصة" }
     },
     {
       id: "rik",
       image: "assets/artworks/02-rik.webp",
       status: "catalog",
       ru: { title: "Административное здание в Чертаново. «РИК»", meta: "Холст, масло" },
-      zh: { title: "切尔塔诺沃行政大楼“РИК”", meta: "布面油画" }
+      zh: { title: "切尔塔诺沃行政大楼“РИК”", meta: "布面油画" },
+      ar: { title: "المبنى الإداري في تشيرتانوفو «ريك»", meta: "زيت على قماش" }
     },
     {
       id: "old-chertanovo",
       image: "assets/artworks/03-old-chertanovo.webp",
       status: "private",
       ru: { title: "Старое Чертаново", meta: "Холст, масло · 60 × 80 см · в частной коллекции" },
-      zh: { title: "老切尔塔诺沃", meta: "布面油画 · 60 × 80 厘米 · 私人收藏" }
+      zh: { title: "老切尔塔诺沃", meta: "布面油画 · 60 × 80 厘米 · 私人收藏" },
+      ar: { title: "تشيرتانوفو القديمة", meta: "زيت على قماش · 60 × 80 سم · مجموعة خاصة" }
     },
     {
       id: "swans",
       image: "assets/artworks/04-swans.webp",
       status: "private",
       ru: { title: "Лебеди", meta: "Холст, масло · 100 × 100 см · в частной коллекции" },
-      zh: { title: "天鹅", meta: "布面油画 · 100 × 100 厘米 · 私人收藏" }
+      zh: { title: "天鹅", meta: "布面油画 · 100 × 100 厘米 · 私人收藏" },
+      ar: { title: "البجع", meta: "زيت على قماش · 100 × 100 سم · مجموعة خاصة" }
     },
     {
       id: "municipal-machines",
       image: "assets/artworks/05-municipal-machines.webp",
       status: "private",
       ru: { title: "Московские коммунальные машины", meta: "Холст, масло · в частной коллекции" },
-      zh: { title: "莫斯科市政车辆", meta: "布面油画 · 私人收藏" }
+      zh: { title: "莫斯科市政车辆", meta: "布面油画 · 私人收藏" },
+      ar: { title: "مركبات الخدمات البلدية في موسكو", meta: "زيت على قماش · مجموعة خاصة" }
     },
     {
       id: "gagra",
       image: "assets/artworks/06-gagra.webp",
       status: "catalog",
       ru: { title: "Гагра", meta: "Холст, масло" },
-      zh: { title: "加格拉", meta: "布面油画" }
+      zh: { title: "加格拉", meta: "布面油画" },
+      ar: { title: "غاغرا", meta: "زيت على قماش" }
     },
     {
       id: "creator",
       image: "assets/artworks/07-creator.webp",
       status: "private",
       ru: { title: "Творец и детище", meta: "Холст, масло · в частной коллекции" },
-      zh: { title: "创作者与造物", meta: "布面油画 · 私人收藏" }
+      zh: { title: "创作者与造物", meta: "布面油画 · 私人收藏" },
+      ar: { title: "المبدع وصنيعته", meta: "زيت على قماش · مجموعة خاصة" }
     },
     {
       id: "swans-ii",
       image: "assets/artworks/08-swans-ii.webp",
       status: "catalog",
       ru: { title: "Лебеди II", meta: "Холст, масло" },
-      zh: { title: "天鹅 II", meta: "布面油画" }
+      zh: { title: "天鹅 II", meta: "布面油画" },
+      ar: { title: "البجع II", meta: "زيت على قماش" }
     },
     {
       id: "fish-port",
       image: "assets/artworks/09-fish-port.webp",
       status: "catalog",
       ru: { title: "Рыбный порт, балалайка и скрипка", meta: "Картон, масло" },
-      zh: { title: "渔港、巴拉莱卡琴与小提琴", meta: "纸板油画" }
+      zh: { title: "渔港、巴拉莱卡琴与小提琴", meta: "纸板油画" },
+      ar: { title: "ميناء الصيد والبالالايكا والكمان", meta: "زيت على كرتون" }
     },
     {
       id: "pasha",
       image: "assets/artworks/10-pasha.webp",
       status: "catalog",
       ru: { title: "Паша танкист", meta: "Холст на картоне, масло" },
-      zh: { title: "坦克兵帕沙", meta: "纸板裱布油画" }
+      zh: { title: "坦克兵帕沙", meta: "纸板裱布油画" },
+      ar: { title: "باشا، جندي الدبابات", meta: "زيت على قماش مثبت على كرتون" }
     },
     {
       id: "filyor",
       image: "assets/artworks/11-filyor.webp",
       status: "catalog",
       ru: { title: "Филёр", meta: "Холст на картоне, масло" },
-      zh: { title: "密探", meta: "纸板裱布油画" }
+      zh: { title: "密探", meta: "纸板裱布油画" },
+      ar: { title: "المراقب السري", meta: "زيت على قماش مثبت على كرتون" }
     },
     {
       id: "portal",
       image: "assets/artworks/12-portal.webp",
       status: "catalog",
       ru: { title: "Портал", meta: "Холст, масло · 80 × 80 см" },
-      zh: { title: "入口", meta: "布面油画 · 80 × 80 厘米" }
+      zh: { title: "入口", meta: "布面油画 · 80 × 80 厘米" },
+      ar: { title: "البوابة", meta: "زيت على قماش · 80 × 80 سم" }
     },
     {
       id: "miroslava",
       image: "assets/artworks/13-miroslava.webp",
       status: "private",
       ru: { title: "Мирослава", meta: "Холст, масло · 50 × 65 см · в частной коллекции" },
-      zh: { title: "米罗丝拉娃", meta: "布面油画 · 50 × 65 厘米 · 私人收藏" }
+      zh: { title: "米罗丝拉娃", meta: "布面油画 · 50 × 65 厘米 · 私人收藏" },
+      ar: { title: "ميروسلافا", meta: "زيت على قماش · 50 × 65 سم · مجموعة خاصة" }
     },
     {
       id: "night-hunt",
       image: "assets/artworks/14-night-hunt.webp",
       status: "catalog",
       ru: { title: "Ночная охота", meta: "Холст, масло" },
-      zh: { title: "夜猎", meta: "布面油画" }
+      zh: { title: "夜猎", meta: "布面油画" },
+      ar: { title: "الصيد الليلي", meta: "زيت على قماش" }
     },
     {
       id: "woman",
       image: "assets/artworks/15-woman.webp",
       status: "private",
       ru: { title: "Женщина", meta: "Холст, масло · в частной коллекции" },
-      zh: { title: "女人", meta: "布面油画 · 私人收藏" }
+      zh: { title: "女人", meta: "布面油画 · 私人收藏" },
+      ar: { title: "امرأة", meta: "زيت على قماش · مجموعة خاصة" }
     },
     {
       id: "not-sisters",
       image: "assets/artworks/16-not-sisters.webp",
       status: "catalog",
       ru: { title: "Не сёстры", meta: "Холст, масло · 71 × 120 см" },
-      zh: { title: "并非姐妹", meta: "布面油画 · 71 × 120 厘米" }
+      zh: { title: "并非姐妹", meta: "布面油画 · 71 × 120 厘米" },
+      ar: { title: "لسن أخوات", meta: "زيت على قماش · 71 × 120 سم" }
     }
   ]
 };

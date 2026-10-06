@@ -15,7 +15,7 @@
 
   try {
     var savedLanguage = localStorage.getItem("konyshev-language");
-    if (savedLanguage === "zh" || savedLanguage === "ru") currentLang = savedLanguage;
+    if (["ru", "zh", "ar"].indexOf(savedLanguage) !== -1) currentLang = savedLanguage;
   } catch (error) {
     currentLang = "ru";
   }
@@ -96,8 +96,11 @@
 
   function applyLanguage(lang) {
     currentLang = lang;
-    document.documentElement.lang = lang === "zh" ? "zh-CN" : "ru";
-    document.title = lang === "zh" ? "尤拉·科内舍夫 — 艺术家" : "Юра Конышев — художник";
+    document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
+    document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+    document.title = t("pageTitle");
+    var description = document.querySelector('meta[name="description"]');
+    if (description) description.setAttribute("content", t("metaDescription"));
 
     document.querySelectorAll("[data-i18n]").forEach(function (element) {
       var key = element.dataset.i18n;
