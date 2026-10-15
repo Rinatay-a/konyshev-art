@@ -47,6 +47,7 @@ window.SITE_CONTENT = {
       backTop: "Наверх",
       privateLabel: "Частная коллекция",
       openWork: "Открыть работу",
+      untitledWork: "Работа без названия",
       pageTitle: "Юра Конышев — художник",
       metaDescription: "Юра Конышев — художник из Чертанова. Работы и выставки."
     },
@@ -93,6 +94,7 @@ window.SITE_CONTENT = {
       backTop: "返回顶部",
       privateLabel: "私人收藏",
       openWork: "打开作品",
+      untitledWork: "无题作品",
       pageTitle: "尤拉·科内舍夫 — 艺术家",
       metaDescription: "尤拉·科内舍夫是来自切尔塔诺沃的艺术家。作品与展览。"
     },
@@ -139,6 +141,7 @@ window.SITE_CONTENT = {
       backTop: "Back to top",
       privateLabel: "Private collection",
       openWork: "Open artwork",
+      untitledWork: "Untitled work",
       pageTitle: "Yura Konyshev — Artist",
       metaDescription: "Yura Konyshev is an artist from Chertanovo. Works and exhibitions."
     },
@@ -185,6 +188,7 @@ window.SITE_CONTENT = {
       backTop: "إلى الأعلى",
       privateLabel: "مجموعة خاصة",
       openWork: "فتح العمل",
+      untitledWork: "عمل بلا عنوان",
       pageTitle: "يورا كونيشيف — فنان",
       metaDescription: "يورا كونيشيف فنان من تشيرتانوفو. الأعمال والمعارض."
     }
@@ -334,6 +338,42 @@ window.SITE_CONTENT = {
       zh: { title: "并非姐妹", meta: "布面油画 · 71 × 120 厘米" },
       en: { title: "Not Sisters", meta: "Oil on canvas · 71 × 120 cm" },
       ar: { title: "لسن أخوات", meta: "زيت على قماش · 71 × 120 سم" }
+    },
+    {
+      id: "untitled-01",
+      image: "assets/artworks/17-untitled-01.webp",
+      status: "catalog",
+      ru: { title: "", meta: "" },
+      en: { title: "", meta: "" },
+      zh: { title: "", meta: "" },
+      ar: { title: "", meta: "" }
+    },
+    {
+      id: "untitled-02",
+      image: "assets/artworks/18-untitled-02.webp",
+      status: "catalog",
+      ru: { title: "", meta: "" },
+      en: { title: "", meta: "" },
+      zh: { title: "", meta: "" },
+      ar: { title: "", meta: "" }
+    },
+    {
+      id: "untitled-03",
+      image: "assets/artworks/19-untitled-03.webp",
+      status: "catalog",
+      ru: { title: "", meta: "" },
+      en: { title: "", meta: "" },
+      zh: { title: "", meta: "" },
+      ar: { title: "", meta: "" }
+    },
+    {
+      id: "untitled-04",
+      image: "assets/artworks/20-untitled-04.webp",
+      status: "catalog",
+      ru: { title: "", meta: "" },
+      en: { title: "", meta: "" },
+      zh: { title: "", meta: "" },
+      ar: { title: "", meta: "" }
     }
   ]
 };

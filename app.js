@@ -29,20 +29,22 @@
   }
 
   function createCard(artwork, index) {
+    var localized = artwork[currentLang];
+    var accessibleTitle = localized.title || t("untitledWork") + " " + padNumber(index + 1);
     var figure = document.createElement("figure");
     figure.className = "art-card reveal";
     figure.dataset.status = artwork.status;
 
     var button = document.createElement("button");
     button.type = "button";
-    button.setAttribute("aria-label", t("openWork") + ": " + artwork[currentLang].title);
+    button.setAttribute("aria-label", t("openWork") + ": " + accessibleTitle);
 
     var imageWrap = document.createElement("div");
     imageWrap.className = "art-image-wrap";
 
     var image = document.createElement("img");
     image.src = artwork.image;
-    image.alt = artwork[currentLang].title;
+    image.alt = accessibleTitle;
     image.loading = index < 6 ? "eager" : "lazy";
     image.decoding = "async";
     imageWrap.appendChild(image);
@@ -51,17 +53,19 @@
     number.className = "art-index";
     number.textContent = padNumber(index + 1) + " / " + padNumber(content.artworks.length);
 
-    var title = document.createElement("h3");
-    title.textContent = artwork[currentLang].title;
-
-    var meta = document.createElement("p");
-    meta.className = "art-meta";
-    meta.textContent = artwork[currentLang].meta;
-
     button.appendChild(imageWrap);
     button.appendChild(number);
-    button.appendChild(title);
-    button.appendChild(meta);
+    if (localized.title) {
+      var title = document.createElement("h3");
+      title.textContent = localized.title;
+      button.appendChild(title);
+    }
+    if (localized.meta) {
+      var meta = document.createElement("p");
+      meta.className = "art-meta";
+      meta.textContent = localized.meta;
+      button.appendChild(meta);
+    }
     button.addEventListener("click", function () { openLightbox(artwork, index); });
     figure.appendChild(button);
     return figure;
@@ -81,10 +85,14 @@
   }
 
   function openLightbox(artwork, index) {
+    var localized = artwork[currentLang];
+    var accessibleTitle = localized.title || t("untitledWork") + " " + padNumber(index + 1);
     lightboxImage.src = artwork.image;
-    lightboxImage.alt = artwork[currentLang].title;
-    lightboxTitle.textContent = artwork[currentLang].title;
-    lightboxMeta.textContent = artwork[currentLang].meta;
+    lightboxImage.alt = accessibleTitle;
+    lightboxTitle.textContent = localized.title;
+    lightboxTitle.hidden = !localized.title;
+    lightboxMeta.textContent = localized.meta;
+    lightboxMeta.hidden = !localized.meta;
     lightboxKicker.textContent = padNumber(index + 1) + " / " + padNumber(content.artworks.length);
     document.body.classList.add("is-locked");
     lightbox.showModal();
