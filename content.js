@@ -374,6 +374,15 @@ window.SITE_CONTENT = {
       en: { title: "", meta: "" },
       zh: { title: "", meta: "" },
       ar: { title: "", meta: "" }
+    },
+    {
+      id: "anna-a",
+      image: "assets/artworks/21-anna-a.webp",
+      status: "private",
+      ru: { title: "Анна А.", meta: "Холст, масло · 80 × 100 см · в частной коллекции" },
+      en: { title: "Anna A.", meta: "Oil on canvas · 80 × 100 cm · private collection" },
+      zh: { title: "安娜·A.", meta: "布面油画 · 80 × 100 厘米 · 私人收藏" },
+      ar: { title: "آنا أ.", meta: "زيت على قماش · 80 × 100 سم · مجموعة خاصة" }
     }
   ]
 };
