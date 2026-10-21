@@ -383,6 +383,15 @@ window.SITE_CONTENT = {
       en: { title: "Anna A.", meta: "Oil on canvas · 80 × 100 cm · private collection" },
       zh: { title: "安娜·A.", meta: "布面油画 · 80 × 100 厘米 · 私人收藏" },
       ar: { title: "آنا أ.", meta: "زيت على قماش · 80 × 100 سم · مجموعة خاصة" }
+    },
+    {
+      id: "food-on-stool",
+      image: "assets/artworks/22-food-on-stool.webp",
+      status: "catalog",
+      ru: { title: "Еда на табуретке", meta: "Холст на картоне, масло · 50 × 70 см" },
+      en: { title: "Food on a Stool", meta: "Oil on canvas mounted on board · 50 × 70 cm" },
+      zh: { title: "凳子上的食物", meta: "纸板裱布油画 · 50 × 70 厘米" },
+      ar: { title: "طعام على المقعد", meta: "زيت على قماش مثبت على كرتون · 50 × 70 سم" }
     }
   ]
 };
